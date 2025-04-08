@@ -28,7 +28,7 @@ function onClick() {
         </v-container>
       </v-main>
 
-      <v-footer color="amber-lighten-5" border app>2025 - TrackBack</v-footer>
+      <v-footer color="amber-lighten-5" border app>2025 - Claim Point</v-footer>
     </v-app>
   </v-responsive>
 </template>
