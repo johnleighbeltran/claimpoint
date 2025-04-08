@@ -9,7 +9,7 @@ import appLayout from '@/components/layout/AppLayout.vue'
         <v-col cols="12" md="6" class="mx-auto pt-16">
           <v-card class="mx-auto" color="orange-lighten-4" elevation="2">
             <template v-slot:title>
-              <v-img src="/images/logofav.png"></v-img>
+              <v-img src="/images/logofav.png""></v-img>
             </template>
 
             <v-card-text class="bg-orange-lighten-5 pt-4">
