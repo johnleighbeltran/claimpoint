@@ -28,13 +28,11 @@ function onClick() {
             <v-col cols="12" md="6" class="mx-auto pt-16">
               <v-card
                 class="mx-auto"
-                prepend-icon="mdi-account"
-                subtitle="Login"
                 color="orange-lighten-4"
                 elevation="2"
               >
                 <template v-slot:title>
-                  <span class="font-weight-black">LostnFound</span>
+                  <v-img src="/images/logofav.png"></v-img>
                 </template>
 
                 <v-card-text class="bg-orange-lighten-5 pt-4">
