@@ -32,7 +32,7 @@ function onClick() {
                 elevation="2"
               >
                 <template v-slot:title>
-                  <v-img src="/images/logofav.png"></v-img>
+                  <v-img src="/images/logofav.png" height="200"></v-img>
                 </template>
 
                 <v-card-text class="bg-orange-lighten-5 pt-4">
