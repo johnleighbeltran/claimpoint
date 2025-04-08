@@ -24,7 +24,7 @@ function onClick() {
 
       <v-main class="bg-amber-lighten-5">
         <v-container> 
-            <slot name=""></slot>
+          <slot name="content"></slot>
         </v-container>
       </v-main>
 
