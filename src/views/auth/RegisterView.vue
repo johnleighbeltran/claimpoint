@@ -7,6 +7,7 @@ import { ref } from 'vue'
 <template>
   <v-responsive class="border rounded">
     <v-app>
+
       <v-app-bar class="px-3" color="grey-lighten-1">
         <v-spacer></v-spacer>
 
@@ -41,7 +42,7 @@ import { ref } from 'vue'
                   <v-divider class="my-5"></v-divider>
 
                   <h5 class="text-center">
-                    Already have account? <RouterLink to="/login">Click Here to Login</RouterLink>
+                    Already have account? <router-link to="/">Click Here to Login</router-link>
                   </h5>
                 </v-card-text>
               </v-card>

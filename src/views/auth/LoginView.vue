@@ -7,6 +7,7 @@ import { ref } from 'vue'
 <template>
   <v-responsive class="border rounded">
     <v-app>
+      
       <v-app-bar class="px-3" color="grey-lighten-1">
         <v-spacer></v-spacer>
 
@@ -19,7 +20,7 @@ import { ref } from 'vue'
               <v-card
                 class="mx-auto"
                 color="orange-lighten-4"
-                elevation="2"
+                elevation="10"
               >
                 <template v-slot:title>
                   <v-img src="/images/logofav.png" height="200"></v-img>
@@ -37,7 +38,7 @@ import { ref } from 'vue'
                   <v-divider class="my-5"></v-divider>
 
                   <h5>
-                    Don't have account?
+                    Don't have an account?
                     <router-link to="/register">Click Here to Register</router-link>
                   </h5>
                 </v-card-text>
