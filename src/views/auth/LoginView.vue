@@ -40,6 +40,8 @@ import { ref } from 'vue'
                   <h5>
                     Don't have an account?
                     <router-link to="/register">Click Here to Register</router-link>
+                    <br>
+                    <router-link to="/dashboard">Click Here to Dashboard</router-link>
                   </h5>
                 </v-card-text>
               </v-card>
